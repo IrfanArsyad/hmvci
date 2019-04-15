@@ -4,7 +4,8 @@ class Home extends MX_Controller
 {
 	
 	public 	function index(){
-		echo "home";
+		
+		$this->load->view('home/index');
 	}
 
 }
